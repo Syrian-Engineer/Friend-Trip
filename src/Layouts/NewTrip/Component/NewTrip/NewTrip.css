@@ -1,0 +1,15 @@
+.container{
+    background: linear-gradient(45deg,rgb(255, 172, 17),rgb(47, 198, 206));
+}
+
+.container::before{
+    content: "";
+    position: absolute;
+    width: calc(100% - 3px);
+    height: calc(100% - 3px);
+    border-radius: 10px;
+    background-color: #111;
+    left: 1px;
+    top: 1px;
+}
+

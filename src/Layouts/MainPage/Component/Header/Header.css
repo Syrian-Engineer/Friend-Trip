@@ -1,0 +1,33 @@
+
+ header{
+    height: 100%;
+}
+
+header .text{
+    left: 25%;
+    top: 15%;
+}
+
+header .text button{
+    background-color: #015C92;
+}
+
+header .slogan {
+    background-color: #015C92; /* Gradient from right to left */
+    padding-left: 2rem; /* Adjust to control how much of the gradient you want visible */
+    overflow: visible;
+    
+}
+
+header .slogan .slogan-img {
+    width: 100%; /* Make it scale to the width of its parent */
+    max-width: 50rem; /* Max size of the image */
+    height: auto; /* Keep the aspect ratio of the image intact */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+header .text span{
+    background: linear-gradient(45deg,#2D82B5,#015C92);
+    background-clip: text;
+    color: transparent;
+}

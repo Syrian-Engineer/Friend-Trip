@@ -1,0 +1,19 @@
+.nav{
+    padding: 2px 3px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:background-color 0.2s ease;
+}
+
+.nav:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.nav .icon{
+    font-size: 55px;
+    width: 20px;
+}
+
+.nav .title{
+    font-size: 18px;
+}
