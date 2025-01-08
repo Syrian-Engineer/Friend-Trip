@@ -13,11 +13,13 @@ interface Trip {
 
 const OldTrips = () => {
   const tripCollectionRef = collection(db, "Trips");
-  const [trpis ,setTrips] = useState<Trip[]>([]);
+  const [trips ,setTrips] = useState<Trip[]>([]);
   const [filteredTrips, setFilteredTrips] = useState<Trip[]>([]);
   const userEmail = useSelector((state: RootState) => state.user.email); // Get user email from Redux
   const ThemePage = useSelector((state:RootState) => state.Theme.ThemePage);
 
+  console.log(trips);
+  
 
   // Fetch all trips from Firestore
   const getAllTrips = async () => {

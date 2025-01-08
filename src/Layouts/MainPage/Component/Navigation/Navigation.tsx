@@ -23,7 +23,7 @@ const Navigation = () => {
     <div className="navigation hidden relative lg:flex flex-col w-16 min-h-lvh p-5 items-center overflow-hidden gap-10">
       
         <img
-          src="/src/assets/images/IMG_20231025_195533_009.jpg" // Use the profilePic directly
+          src="/Images/IMG_20231025_195533_009.jpg" // Use the profilePic directly
           alt="Profile Pic"
           className="profile-img w-16 border-0 rounded-full"
         />

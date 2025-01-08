@@ -24,7 +24,7 @@ const Header = () => {
           <div className='relative w-[30rem] h-[20rem] '>
             <div className='slogan w-[25rem] h-[20rem] absolute rounded-full left-0  '>
             </div>
-            <img src="/src/assets/images/Untitled-3.png" alt=""  className='slogan-img  right-20 absolute w-[25rem] -bottom-5 rounded-full  '/>
+            <img src="/Images/Untitled-3.png" alt=""  className='slogan-img  right-20 absolute w-[25rem] -bottom-5 rounded-full  '/>
           </div>
     </header>
   )
